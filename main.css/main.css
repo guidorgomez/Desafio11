@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*fuente*/ 
+@font-face{
+    font-family: bro;
+    src: url(../fuente/BrothersBold.otf);
+}
+
+body{
+    font-family: bro;
+    background-color: #202020;
+}
+
+
+.nav-item{
+    font-size: 22px;
+}
+main div{
+    align-items: center;
+}
+
+h1{
+    color:#B3903A;
+    font-size: 110px;
+}
+.bienvenida{
+    color: whitesmoke;
+    font-size: 30px;
+}
+.hashtagMBox{
+    text-align: center;
+    font-size: 120px;
+}
+.linkHomeNosotros a{
+    border: 3px solid #fff;
+    padding: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 30px;    
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 80px;   
+}    
