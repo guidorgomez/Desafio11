@@ -11,35 +11,92 @@
 body{
     font-family: bro;
     background-color: #202020;
+    width: 100vw;
+    overflow-x: hidden;
+    height: 100vh;
+}
+.contenedorMenu{
+    display: flex;
 }
 
-
 .nav-item{
-    font-size: 22px;
+    font-size: 22px;    
 }
 main div{
     align-items: center;
 }
 
-h1{
+.bienvenidos{
     color:#B3903A;
     font-size: 110px;
+    
 }
 .bienvenida{
     color: whitesmoke;
     font-size: 30px;
+    padding-left: 15px;    
+}
+.imgHome1{
+    margin-top: 20px;
 }
 .hashtagMBox{
-    text-align: center;
     font-size: 120px;
 }
 .linkHomeNosotros a{
-    border: 3px solid #fff;
+    border: 3px solid #B3903A;
     padding: 20px;
     text-decoration: none;
-    color: whitesmoke;
+    color: #B3903A;
     border-radius: 30px;    
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 80px;   
-}    
+}   
+.linkHomeNosotros a:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+} 
+#carouselExampleControls{
+    padding-top: 10px;
+}
+footer{
+    text-align: center;
+height: auto;      
+}
+div .magicFooter a{
+    text-decoration: none;
+    color: #B3903A;
+}
+div .derechosFooter{
+    color: whitesmoke;
+}
+
+.encabezadoHomeMenu{
+    font-size: 100px;
+    color: #B3903A;
+}
+.parrafoHomeMenu{
+    font-size: 30px;
+    color: whitesmoke;
+}
+.linkHomeMenu a{
+    border: 3px solid #B3903A;
+    text-decoration: none;
+    color: #B3903A;
+    border-radius: 30px; 
+    padding: 15px;      
+}
+.linkHomeMenu:hover{
+    transform: scale(1.1);
+    transition: 1s;    
+}
+.seccionRedes{
+    margin-top: 20px;
+}
+.redesHome{
+    font-size: 50px;
+    color: #424242;
+}
+.imgFinalHome{
+    margin-top: 20px;
+}
