@@ -13,7 +13,8 @@ body{
     background-color: #202020;
     width: 100vw;
     overflow-x: hidden;
-    height: 100vh;
+    position: relative;
+    min-height: 100vh;
 }
 .contenedorMenu{
     display: flex;
@@ -61,7 +62,9 @@ main div{
 }
 footer{
     text-align: center;
-height: auto;      
+    height: auto;
+    position: absolute;
+    bottom: 0;      
 }
 div .magicFooter a{
     text-decoration: none;
@@ -99,4 +102,104 @@ div .derechosFooter{
 }
 .imgFinalHome{
     margin-top: 20px;
+}
+/*MENU*/
+.encabezadoMenu{
+    margin: 1rem;
+}
+.h1Menu{
+    color:#B3903A;
+    font-size: 100px;
+    text-align: center;
+}
+.parrafoMenu{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.5rem;    
+}
+.intervaloMenu{
+    font-size: 80px;
+    text-align: center;
+    color: #424242;
+}
+.gustoTitulo{
+    color: #B3903A;
+    font-size: 30px;
+}
+.gustoDescripcion{
+    color: whitesmoke;
+}
+.pedirMenu a{
+    border: 3px solid #B3903A;
+    text-decoration: none;
+    color: #B3903A;
+    border-radius: 20px; 
+    padding: 5px;      
+}
+.mainMenu{
+    display: grid;
+    grid-template-areas: "h1Menu"
+                         "parrafoMenu"
+                         "intervaloMenu"
+                         "imgMenu1"
+                         "imgMenu2"
+                         "imgMenu3"
+                         "imgMenu4"
+                         "imgMenu5"
+                         "imgMenu6";
+    justify-content: center;
+}
+
+.h1Menu{
+    grid-area: h1Menu;
+}
+.parrafoMenu{
+    grid-area: parrafoMenu;
+}
+.intervaloMenu{
+    grid-area: intervaloMenu;
+}
+.imgMenu1{
+    grid-area: imgMenu1;
+    text-align: center;
+    margin: 1rem;
+}
+.imgMenu2{
+    grid-area: imgMenu2;
+    text-align: center;
+    margin: 1rem;
+}
+.imgMenu3{
+    grid-area: imgMenu3;
+    text-align: center;
+    margin: 1rem;
+}
+.imgMenu4{
+    grid-area: imgMenu4;
+    text-align: center;
+    margin: 1rem;
+}
+.imgMenu5{
+    grid-area: imgMenu5;
+    text-align: center;
+    margin: 1rem;
+}
+.imgMenu6{
+    grid-area: imgMenu6;
+    text-align: center;
+    margin: 1rem;
+}
+
+@media only screen and (min-width: 700px){
+    .mainMenu{
+        display: grid;
+        grid-template-areas: "h1Menu h1Menu h1Menu"
+                             "parrafoMenu parrafoMenu parrafoMenu"
+                             "intervaloMenu intervaloMenu intervaloMenu"
+                             "imgMenu1 imgMenu2 imgMenu3"
+                             "imgMenu4 imgMenu5 imgMenu6";
+        justify-content: center;
+    }
+    
+    
 }
