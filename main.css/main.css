@@ -62,8 +62,7 @@ main div{
 }
 footer{
     text-align: center;
-    height: auto;
-    position: absolute;
+    height: auto;    
     bottom: 0;      
 }
 div .magicFooter a{
@@ -190,16 +189,57 @@ div .derechosFooter{
     margin: 1rem;
 }
 
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 768px){
     .mainMenu{
         display: grid;
-        grid-template-areas: "h1Menu h1Menu h1Menu"
-                             "parrafoMenu parrafoMenu parrafoMenu"
-                             "intervaloMenu intervaloMenu intervaloMenu"
-                             "imgMenu1 imgMenu2 imgMenu3"
-                             "imgMenu4 imgMenu5 imgMenu6";
+        grid-template-columns: "h1Menu h1Menu h1Menu"
+                               "parrafoMenu parrafoMenu parrafoMenu"
+                               "intervaloMenu intervaloMenu intervaloMenu"
+                               "imgMenu1 imgMenu2 imgMenu3"
+                               "imgMenu4 imgMenu5 imgMenu6";
         justify-content: center;
-    }
-    
-    
+        align-items: center; 
+                    
+    }    
+}
+
+/*COMO PEDIR*/
+
+/*formulario*/
+
+.h1Contacto{
+    color: #B3903A;
+    font-size: 120px;
+}
+.camposForm{
+    color: whitesmoke;
+}
+.encabezadoForm{
+    background-color:#8a7131;
+    border: 3px solid #B3903A;
+    padding: px;    
+    color: #B3903A;
+    border-radius: 30px;   
+}
+.encabezadoForm h3:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    text-transform: uppercase;
+}
+.encabezadoForm h3{
+    color: #202020;
+    font-size: 40px;
+}
+.mensajeForm{
+    height: 100px;
+}
+.enviarForm{
+    text-transform: uppercase;
+}
+form div label{
+    font-size: 25px;
+}
+.contactanos{
+    color: whitesmoke;
+    font-size: 35px;
 }
