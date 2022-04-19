@@ -10,7 +10,7 @@
     
     <!-- link de mi css -->
     <link rel="stylesheet" href="../main.css/main.css">
-    <title> Nosotros </title>
+    <title> Como pedir </title>
 </head>
 <!-- comienzo de header -->
 <header>
@@ -24,7 +24,7 @@
               </button>
               <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                  <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Inicio</a></li>                        
+                  <li class="nav-item"><a class="nav-link" aria-current="page" href="../index.html">Inicio</a></li>                        
                   <li class="nav-item"><a class="nav-link" href="../pages/nosotros.html">Nosotros</a></li>                          
                   <li class="nav-item"><a class="nav-link" href="../pages/menu.html">Magic Menu</a></li>                        
                   <li class="nav-item"><a class="nav-link" href="../pages/comopedir.html">Como pedir</a></li>
@@ -38,5 +38,88 @@
   </header>
 <body>
     
+
+  <main class="container">
+    <!-- encabezado ppal como pedir -->
+  <section  class="row my-5 justify-content-center align-items-center encabezadoContacto">
+    <h1 class="col-lg-8 col-md-12 text-center h1Contacto"> Elegí tu box </h1>
+    <div class="col-lg-4 col-md-12 text-center">
+      <img class="logoContacto" src="/img/logo-200x200.png" alt="" >
+    </div>
+  </section>
+  <!-- fin encabezado ppal como pedir -->
+  <!-- seccion redes -->
+  <section class="container seccionRedes my-5">
+    <div class="row">
+       <h2 class="col-12 text-center redesHome hidden-md-down"> desde nuestras redes </h2>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center d-flex justify-content-center align-intems-center">
+        <a href="https://www.instagram.com/_magicburgers/" target="_blank"><img src="/img/igHome-50x50.png" alt="instagram" class="mx-2"></a> 
+        <a href="https://www.facebook.com/magicburgerss/" target="_blank"><img src="/img/fbHome-50x50.png" alt="facebook" class="mx-2"></a>
+      </div>
+    </div>
+  </section>
+ <!-- fin seccion redes --> 
+<!-- Formulario -->
+  <section class="container">
+    <div class="row my-5">
+      <h2 class="col-12 text-center contactanos">Contactanos</h2>
+      <h3 class="col-12 text-center contactanos">Envianos tu consulta y programá tu pedido</h3>
+      
+    </div>
+   <!-- formulario de contacto-->
+   <div class="encabezadoForm text-center my-3">
+     <h3> Magic Contact </h3>
+   </div>
+   <form action="" class="justify-content-center align-items-center text-center">
+     <div class="form-group">
+     <label for="Nombre" class="my-2 hidden-md-down camposForm"> Nombre </label>
+     <input type="text" placeholder="Ingresa tu nombre aqui" class="form-control text-center">
+     </div>
+     <div class="form-group">
+      <label for="Apellido" class="my-2 hidden-md-down camposForm"> Apellido </label>
+      <input type="text" placeholder="Ingresa tu apellido aqui" class="form-control text-center">
+      </div>
+      <div class="form-group">
+        <label for="telefono" class="my-2 hidden-md-down camposForm"> teléfono </label>
+        <input type="text" placeholder="Ingresa tu teléfono aqui" class="form-control text-center">
+      </div>
+      <div class="form-group">
+          <label for="email" class="my-2 hidden-md-down camposForm"> email </label>
+          <input type="text" placeholder="Ingresa tu email aqui" class="form-control text-center">
+      </div>
+      <div class="form-group">
+        <label for="pedido" class="my-2 hidden-md-down camposForm"> Pedido </label>
+        <textarea name="consulta" placeholder="pedidos o consultas aqui" class="form-control text-center mensajeForm"></textarea>        
+    </div>
+      <div class="form-group pt-3 enviarForm">
+        <button class="btn btn-danger" type="submit">Enviar consulta o pedido <button>
+      </div>
+   </form>
+  </section>
+  <!-- fin de formulario -->
+  </main>
+
+
+
+
+  <footer class="container-fluid pt-5">
+    <div class="row">
+      <div class="col-4">
+        <p class="magicFooter"><a href="../index.html">Magic Burger ©</a></p>
+      </div>
+      <div class="col-4" >
+      <p class="derechosFooter"> Todos los derechos reservados </p>
+      </div>
+      <div class="col-4 justify-content-space-between">
+      <p class="derechosFooter"> Redes <a href="https://www.facebook.com/magicburgerss/"> <img src="../img/fb-35.png" alt="facebook"></a>
+      <a href="https://www.instagram.com/_magicburgers/"> <img src="../img/ig-35.png" alt="instragram"></a></p>          
+    </div>      
+   </div>     
+ </footer>   
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
