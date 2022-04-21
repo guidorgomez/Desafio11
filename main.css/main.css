@@ -29,19 +29,19 @@ main div{
 
 .bienvenidos{
     color:#B3903A;
-    font-size: 110px;
+    font-size: 6rem;
     
 }
 .bienvenida{
     color: whitesmoke;
-    font-size: 30px;
-    padding-left: 15px;    
+    font-size: 2rem;
+    padding-left: 1rem;    
 }
 .imgHome1{
-    margin-top: 20px;
+    margin-top: 1.2rem;
 }
 .hashtagMBox{
-    font-size: 120px;
+    font-size: 7rem;
 }
 .linkHomeNosotros a{
     border: 3px solid #B3903A;
@@ -60,8 +60,8 @@ main div{
 #carouselExampleControls{
     padding-top: 10px;
 }
-footer{
-    text-align: center;
+footer{    
+    position: absolute;
     height: auto;    
     bottom: 0;      
 }
@@ -74,11 +74,11 @@ div .derechosFooter{
 }
 
 .encabezadoHomeMenu{
-    font-size: 100px;
+    font-size: 5rem;
     color: #B3903A;
 }
 .parrafoHomeMenu{
-    font-size: 30px;
+    font-size: 1.3rem;
     color: whitesmoke;
 }
 .linkHomeMenu a{
@@ -96,8 +96,12 @@ div .derechosFooter{
     margin-top: 20px;
 }
 .redesHome{
-    font-size: 50px;
+    font-size: 4rem;
     color: #424242;
+}
+.logoRedesHome:hover{
+    transform: scale(1.1);
+    transition: 0.5s;    
 }
 .imgFinalHome{
     margin-top: 20px;
@@ -137,7 +141,7 @@ div .derechosFooter{
 }
 .mainMenu{
     display: grid;
-    grid-template-areas: "h1Menu"
+    grid-template-columns: "h1Menu"
                          "parrafoMenu"
                          "intervaloMenu"
                          "imgMenu1"
@@ -192,7 +196,7 @@ div .derechosFooter{
 @media only screen and (min-width: 768px){
     .mainMenu{
         display: grid;
-        grid-template-columns: "h1Menu h1Menu h1Menu"
+        grid-template-rows: "h1Menu h1Menu h1Menu"
                                "parrafoMenu parrafoMenu parrafoMenu"
                                "intervaloMenu intervaloMenu intervaloMenu"
                                "imgMenu1 imgMenu2 imgMenu3"
